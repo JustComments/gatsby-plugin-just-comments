@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-plugin-just-comments",
+  "version": "0.1.0",
+  "description": "Gatsby Plugin for JustComments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustComments/gatsby-plugin-just-comments.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "just-comments"
+  ],
+  "author": "Alex Rudenko <alex@just-comments.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustComments/gatsby-plugin-just-comments/issues"
+  },
+  "homepage": "https://github.com/JustComments/gatsby-plugin-just-comments#readme",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "react": "16.8.6"
+  }
+}
