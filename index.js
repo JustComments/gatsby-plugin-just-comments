@@ -21,7 +21,7 @@ class JustComments extends React.Component {
               },
         },
         this.getProps(),
-      ),
+      )
     );
   }
 
