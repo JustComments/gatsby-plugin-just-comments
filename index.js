@@ -18,9 +18,9 @@ class JustComments extends React.Component {
             ? this.ref
             : (div) => {
                 this.ref = { current: div };
-              },
+              }
         },
-        this.getProps(),
+        this.getProps()
       )
     );
   }
