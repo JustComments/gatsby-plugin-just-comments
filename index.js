@@ -5,15 +5,24 @@ const WIDGET_URL = 'https://just-comments.com/w2.js';
 class JustComments extends React.Component {
   constructor(...args) {
     super(...args);
-    this.ref = React.createRef();
+    this.ref = React.createRef ? React.createRef() : null;
   }
 
   render() {
-    return React.createElement('div', {
-      className: 'just-comments',
-      ref: this.ref,
-      ...this.getProps(),
-    });
+    return React.createElement(
+      'div',
+      Object.assign(
+        {
+          className: 'just-comments',
+          ref: React.createRef
+            ? this.ref
+            : (div) => {
+                this.ref = { current: div };
+              },
+        },
+        this.getProps(),
+      ),
+    );
   }
 
   getProps() {
