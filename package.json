@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-just-comments",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Gatsby Plugin for JustComments",
   "main": "index.js",
   "scripts": {
