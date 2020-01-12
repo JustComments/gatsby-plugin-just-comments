@@ -13,7 +13,7 @@ class JustComments extends React.Component {
       'div',
       Object.assign(
         {
-          className: 'just-comments',
+          className: this.props.className || 'just-comments',
           ref: React.createRef
             ? this.ref
             : (div) => {
